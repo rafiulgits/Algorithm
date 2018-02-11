@@ -32,7 +32,7 @@ int main()
 }
 int Prim(int start)
 {
-    /* for making mean heap in priority_queue use vector with data type
+    /* for making min heap in priority_queue use vector with data type
        and grater with data type, as because -to provide inbuilt template */
     priority_queue< pair<int,int>, vector< pair<int,int> >, greater< pair<int,int> > > next;
     int totalCost = 0;
