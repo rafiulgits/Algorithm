@@ -40,7 +40,7 @@ int main()
     Dijkstra(1);
 
     /* output all nodes shortest distance from this particular starting node*/
-    for(int i=1; i<= edges; i++)
+    for(int i=1; i<= nodes; i++)
         cout << "Shortest distance of node "<<i<<" is : "<<dis[i] <<endl;
 }
 
