@@ -28,7 +28,7 @@ int KMP(string source, string pattern)
     int index = 0;
 
     /* traverse from the second index of pattern*/
-    for(int i=1; i<p_len; i++)
+    for(int i=1; i<p_len; )
     {
         /* if this two index value matched-then both go for next */
         if(pattern[i] == pattern[index])
